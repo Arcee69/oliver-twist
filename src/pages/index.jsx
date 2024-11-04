@@ -6,6 +6,7 @@ import Mocktail from '../assets/pdf/Mocktail Menu-1.png';
 import Shots from '../assets/pdf/Shots & Shooters-1.png';
 import Food from '../assets/pdf/FOOD MENU-1.png';
 import Grills from '../assets/pdf/GRILLS PRICE LIST-1.png';
+import Beer from '../assets/pdf/BEER MENU-1.png';
 
 
 const HomePage = () => {
@@ -18,6 +19,7 @@ const HomePage = () => {
         <img src={Shots} alt="Menu" style={{ width: '100%' }} />
         <img src={Food} alt="Menu" style={{ width: '100%' }} />
         <img src={Grills} alt="Menu" style={{ width: '100%' }} />
+        <img src={Beer} alt="Menu" style={{ width: '100%' }} />
    
     </div>
   );
