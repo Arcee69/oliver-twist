@@ -1,6 +1,8 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 
-import Bottle from '../assets/pdf/Bottle Price List-1.png';
+import BottleA from '../assets/pdf/Bottle Price List-1.png';
+import BottleB from '../assets/pdf/Bottle Price List-2.png';
+import BottleC from '../assets/pdf/Bottle Price List-3.png';
 import Cocktail from '../assets/pdf/Cocktail Menu-1.png';
 import Mocktail from '../assets/pdf/Mocktail Menu-1.png';
 import Shots from '../assets/pdf/Shots & Shooters-1.png';
@@ -25,7 +27,9 @@ const HomePage = () => {
         <img src={Mocktail} alt="Menu" style={{ width: '100%' }} />
         <img src={Cocktail} alt="Menu" style={{ width: '100%' }} />
         <img src={Shots} alt="Menu" style={{ width: '100%' }} />
-        <img src={Bottle} alt="Menu" style={{ width: '100%' }} />
+        <img src={BottleA} alt="Menu" style={{ width: '100%' }} />
+        <img src={BottleB} alt="Menu" style={{ width: '100%' }} />
+        <img src={BottleC} alt="Menu" style={{ width: '100%' }} />
         <img src={Beer} alt="Menu" style={{ width: '100%' }} />
         <img src={Shisha} alt="Menu" style={{ width: '100%' }} />
    
